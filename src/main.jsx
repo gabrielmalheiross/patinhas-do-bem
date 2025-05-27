@@ -12,6 +12,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <div className="tela-inteira" style={{ display: 'flex', flexDirection: 'column' }}>
+      <RouterProvider router={router} />
+    </div>
   </StrictMode>,
 )

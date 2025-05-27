@@ -1,34 +1,30 @@
 import { useState } from 'react'
 import '../App.css'
+import Layout from '../components/Layout'
 
 function Sobre() {
 
     return (
         <>
-            <div className="tela-inteira">
-                <img
-                    src="/public/bannerheader.png"
-                    alt="Imagem de fundo"
-                    className="imagem-fundo"
-                />
+            <img
+                src="/public/bannerabout.png"
+                alt="Imagem de fundo"
+                className="imagem-fundo"
+            />
 
-                <div className="overlay" />
+            <div className="overlay" />
 
-                <header className="header">
-                    <nav style={{ display: 'flex', justifyContent: 'space-between', verticalAlign: 'center', padding: '5px' }}>
-                        <img src="/public/logo-alpatas-header.png" width={150} height={49} alt="Logo" />
-                        <div style={{ display: 'flex', verticalAlign: 'center', padding: '5px' }}>
-                            <a className='botao-header' href='/'>Início</a>
-                            <a className='botao-header' href='/sobre'>Sobre a ONG</a>
-                            <a className='botao-header' href='/contato'>Contato</a>
+            <Layout>
+                <div className="container-portal">
+                    <div className='content-main'>
+                        <div className="card" style={{ width: '400px' }}>
+                            <h3>Quem somos nós</h3>
+                            <p>Nossa ong se dedica ao resgate, cuidado e adoção de animais de rua. que todos os animais merecem um lar amoroso, e nossa missão é conectá-los com famílias que possam oferecer isso. Além disso, contamos com a ajuda de voluntários e doações para continuar nosso trabalho.</p>
+                            <p>A Alpatas é uma associação sem fins lucrativos e tem como propósito lutar pelos direitos dos animais, acolher e abrigar animais sem lar e lhes garantir um novo lar por meio da adoção responsável.</p>
                         </div>
-                    </nav>
-                </header>
-
-                <div>
-                    aaaaaaaaaaaaaaaaa
+                    </div>
                 </div>
-            </div>
+            </Layout>
         </>
     )
 }
