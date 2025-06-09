@@ -1,6 +1,10 @@
 .cabecalho {
-    height: 120px;
+    height: 75px;
     width: 100%;
+    opacity: 0.93;
+    align-content: center;
+    background-color: #f9f9f9;
+    box-shadow: -1px 17px 27px -16px rgb(0 0 0 / 41%) !important;
 }
 
 .container-portal {
