@@ -13,9 +13,6 @@ export default function Header() {
                         <a className='botao-header' href='/sobre'>Sobre a ONG</a>
                         <a className='botao-header' href='/contato'>Contato</a>
                     </div>
-                    <div className=''>
-
-                    </div>
                 </nav>
             </div>
         </header>
