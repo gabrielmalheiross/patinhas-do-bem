@@ -2,13 +2,13 @@ import { useState } from 'react'
 import '../App.css'
 import Layout from '../components/Layout'
 
-function Sobre() {
+function Contato() {
 
     return (
         <>
             <Layout>
                 <img
-                    src="/patinhas-do-bem/public/bannerabout.png"
+                    src="/patinhas-do-bem/public/bannerfooter.png"
                     alt="Imagem de fundo"
                     className="imagem-fundo"
                 />
@@ -30,4 +30,4 @@ function Sobre() {
     )
 }
 
-export default Sobre
+export default Contato

@@ -16,13 +16,6 @@
     padding-right: 10px;
 }
 
-.banner {
-    background-image: url(/public/bannerheader.png);
-    background-size: cover;
-    position: relative;
-    height: 100vh;
-}
-
 .img-banner {
     position: relative;
     width: 100%;
@@ -37,4 +30,45 @@
 .conteudo {
     width: 100%;
     flex: 1 1;
+}
+
+.p-menubar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.p-menuitem-link:active {
+    outline: 0;
+}
+
+.p-menubar-root-list>.p-menuitem>.p-menuitem-link {
+    @media (min-width: 960px) {
+        height: 100px;
+        max-width: 150px;
+    }
+}
+
+@media (min-width: 960px) {
+    .p-menubar-root-list>.p-menuitem {
+        border-radius: 8px;
+        border: 1px solid transparent;
+        padding: 0.6em 1.2em;
+        font-size: 1em;
+        font-weight: 500;
+        font-family: inherit;
+        cursor: pointer;
+        transition: border-color 0.25s;
+        align-content: center;
+    }
+
+    .p-menubar-root-list>.p-menuitem:hover {
+        border-color: #0e4958;
+    }
+}
+
+.p-menubar-root-list {
+    margin: 0;
+    padding: 0;
+    height: auto !important;
 }

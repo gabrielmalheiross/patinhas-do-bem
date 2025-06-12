@@ -1,19 +1,40 @@
-import { useState } from 'react';
 import './index.css';
+import { Menubar } from 'primereact/menubar';
+import { useNavigate } from 'react-router';
 
 export default function Header() {
-    const [navBar, activeNavBar] = useState();
+    const navigate = useNavigate();
+
+    const items = [
+        {
+            label: 'Início',
+            icon: 'pi pi-home',
+            command: () => {
+                navigate('/patinhas-do-bem')
+            }
+        },
+        {
+            label: 'Sobre a ONG',
+            icon: 'pi pi-star',
+            command: () => {
+                navigate('/patinhas-do-bem/sobre')
+            }
+        },
+        {
+            label: 'Contact',
+            icon: 'pi pi-envelope',
+            command: () => {
+                navigate('/patinhas-do-bem/contato')
+            }
+        }
+    ];
+
+    const start = <img src="/patinhas-do-bem/public/logo-alpatas-header.png" width={150} height={49} alt="Logo" />;
+
     return (
         <header className="cabecalho shadow-4">
             <div className='container-portal'>
-                <nav style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingLeft: '5px', paddingRight: '5px' }}>
-                    <img src="/public/logo-alpatas-header.png" width={150} height={49} alt="Logo" />
-                    <div style={{ display: 'flex', verticalAlign: 'center', padding: '5px' }}>
-                        <a className='botao-header' href='/'>Início</a>
-                        <a className='botao-header' href='/sobre'>Sobre a ONG</a>
-                        <a className='botao-header' href='/contato'>Contato</a>
-                    </div>
-                </nav>
+                <Menubar model={items} start={start} />
             </div>
         </header>
     )
