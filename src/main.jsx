@@ -7,8 +7,8 @@ import Sobre from './sobre/index.jsx'
 import { PrimeReactProvider } from 'primereact/api';
 
 const router = createBrowserRouter([
-  { path: "/", element: <App /> },
-  { path: "/sobre", element: <Sobre /> }
+  { path: "/patinhas-do-bem", element: <App /> },
+  { path: "/patinhas-do-bem/sobre", element: <Sobre /> }
 ])
 
 createRoot(document.getElementById('root')).render(

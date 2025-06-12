@@ -5,15 +5,15 @@ function App() {
 
   return (
     <>
+      <img
+        src="/public/bannerheader.png"
+        alt="Imagem de fundo"
+        className="imagem-fundo"
+      />
 
       <div className="overlay" />
 
       <Layout>
-        <img
-          src="/public/bannerheader.png"
-          alt="Imagem de fundo"
-          className="imagem-fundo"
-        />
         <div className='content-main'>
           <h1 style={{ width: '50%' }}>Adote um animalzinho! </h1>
           <h3 style={{ width: '75%' }}>Existem milhares de doguinhos e gatinhos esperando um humano para chamar de seu.</h3>
