@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <img
-        src="/patinhas-do-bem/public/bannerheader.png"
+        src="/public/bannerheader.png"
         alt="Imagem de fundo"
         className="imagem-fundo"
       />

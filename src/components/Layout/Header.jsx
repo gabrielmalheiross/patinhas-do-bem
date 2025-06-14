@@ -29,7 +29,7 @@ export default function Header() {
         }
     ];
 
-    const start = <img src="/patinhas-do-bem/public/logo-alpatas-header.png" width={150} height={49} alt="Logo" />;
+    const start = <img src="/logo-alpatas-header.png" width={150} height={49} alt="Logo" />;
 
     return (
         <header className="cabecalho shadow-4">

@@ -1,11 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { PrimeReactProvider } from 'primereact/api';
+
 import 'primeicons/primeicons.css';
 import './index.css'
-import App from './App.jsx'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+
 import Sobre from './sobre/index.jsx'
-import { PrimeReactProvider } from 'primereact/api';
+import App from './App.jsx'
 import Contato from './contato/index.jsx'
 import Adocao from './adocao/index.jsx';
 

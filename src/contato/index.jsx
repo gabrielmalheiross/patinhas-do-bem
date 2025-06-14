@@ -7,7 +7,7 @@ function Contato() {
     return (
         <>
             <img
-                src="/patinhas-do-bem/public/bannerfooter.png"
+                src="/bannerfooter.png"
                 alt="Imagem de fundo"
                 className="imagem-fundo"
             />
