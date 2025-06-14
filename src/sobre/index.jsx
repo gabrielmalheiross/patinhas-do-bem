@@ -7,7 +7,7 @@ function Sobre() {
     return (
         <>
             <img
-                src="/bannerabout.png"
+                src="/patinhas-do-bem/bannerabout.png"
                 alt="Imagem de fundo"
                 className="imagem-fundo"
             />

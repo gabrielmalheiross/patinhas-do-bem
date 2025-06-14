@@ -8,7 +8,7 @@ function Adocao() {
     return (
         <>
             <img
-                src="/patinhas-do-bem/public/bannerfooter.png"
+                src="/patinhas-do-bem/bannerfooter.png"
                 alt="Imagem de fundo"
                 className="imagem-fundo"
             />
