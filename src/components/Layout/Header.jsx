@@ -21,7 +21,7 @@ export default function Header() {
             }
         },
         {
-            label: 'Contact',
+            label: 'Contato',
             icon: 'pi pi-envelope',
             command: () => {
                 navigate('/patinhas-do-bem/contato')
