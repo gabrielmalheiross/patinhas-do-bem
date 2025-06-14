@@ -1,7 +1,10 @@
+import { useNavigate } from 'react-router-dom';
 import './App.css'
 import Layout from './components/Layout'
+import { Button } from 'primereact/button';
 
 function App() {
+  const navigate = useNavigate();
 
   return (
     <>
@@ -17,7 +20,10 @@ function App() {
         <div className='content-main'>
           <h1 style={{ width: '50%' }}>Adote um animalzinho! </h1>
           <h3 style={{ width: '75%' }}>Existem milhares de doguinhos e gatinhos esperando um humano para chamar de seu.</h3>
-          <a href="/patinhas-do-bem/adocao">Quero adotar</a>
+          <Button
+            onClick={() => navigate('/patinhas-do-bem/adocao')}
+            label="Quero adotar"
+            severity="info" text raised />
         </div>
       </Layout>
     </>
