@@ -10,44 +10,44 @@ export default function Header() {
             label: 'Início',
             icon: 'pi pi-home',
             command: () => {
-                navigate('/patinhas-do-bem')
+                navigate('')
             }
         },
         {
             label: 'Quero adotar',
             icon: 'pi pi-shield',
             command: () => {
-                navigate('/patinhas-do-bem/adocao')
+                navigate('/adocao')
             }
         },
         {
             label: 'Quero doar',
             icon: 'pi pi-send',
             command: () => {
-                navigate('/patinhas-do-bem/doacao')
+                navigate('/doacao')
             }
         },
         {
             label: 'Contato',
             icon: 'pi pi-envelope',
             command: () => {
-                navigate('/patinhas-do-bem/contato')
+                navigate('/contato')
             }
         },
         {
             label: 'Sobre a ONG',
             icon: 'pi pi-building-columns',
             command: () => {
-                navigate('/patinhas-do-bem/sobre')
+                navigate('/sobre')
             }
         },
     ];
 
     const onInicio = () => {
-        navigate('/patinhas-do-bem')
+        navigate('')
     }
 
-    const start = <img src="/patinhas-do-bem/logo-alpatas-header.png" className='cursor-pointer' onClick={onInicio} width={150} height={49} alt="Logo" />;
+    const start = <img src="/logo-alpatas-header.png" className='cursor-pointer' onClick={onInicio} width={150} height={49} alt="Logo" />;
 
     return (
         <header className="cabecalho shadow-4">

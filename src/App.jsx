@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <img
-        src="/patinhas-do-bem/bannerheader.png"
+        src="/bannerheader.png"
         loading='lazy'
         alt="Imagem de fundo"
         className="imagem-fundo"
@@ -25,13 +25,13 @@ function App() {
 
             <Button
               className='bg-white'
-              onClick={() => navigate('/patinhas-do-bem/adocao')}
+              onClick={() => navigate('/adocao')}
               label="Quero adotar"
               severity="info" text raised />
 
             <Button
               className='bg-white'
-              onClick={() => navigate('/patinhas-do-bem/contato')}
+              onClick={() => navigate('/contato')}
               label="Quero doar"
               severity="info" text raised />
           </div>

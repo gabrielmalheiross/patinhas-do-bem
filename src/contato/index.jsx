@@ -10,7 +10,7 @@ function Contato() {
         <>
             <img
                 loading='lazy'
-                src="/patinhas-do-bem/bannerfooter.png"
+                src="/bannerfooter.png"
                 alt="Imagem de fundo"
                 className="imagem-fundo"
             />
