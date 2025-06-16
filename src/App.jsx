@@ -19,7 +19,7 @@ function App() {
 
       <Layout>
         <div className='content-main'>
-          <h1 className='w-100 md:w-75 titulo-main'>Ajude uma CAUSAAAAAAAAAAAAAAAAAAAAAAA! </h1>
+          <h1 className='w-100 md:w-75 titulo-main'>Ajude uma causa! </h1>
           <h3 className='w-75 titulo-main'>Existem milhares de doguinhos e gatinhos esperando um humano para chamar de seu.</h3>
           <div className='flex gap-5'>
 
