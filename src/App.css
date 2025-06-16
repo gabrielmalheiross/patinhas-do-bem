@@ -18,7 +18,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .content-main {
@@ -43,7 +43,7 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.card {
+.card-custom {
   margin: 1rem;
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0.9);

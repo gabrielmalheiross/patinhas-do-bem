@@ -14,7 +14,7 @@ function Sobre() {
             <div className="overlay" />
             <Layout>
                 <div className='content-main'>
-                    <div className="card" style={{ width: '400px' }}>
+                    <div className="card-custom" style={{ width: '400px' }}>
                         <h3>Quem somos nós</h3>
                         <p style={{ textAlign: 'justify' }}>Desde 2013, nossa ong se dedica ao resgate, cuidado e adoção de animais de rua. que todos os animais
                             merecem um lar amoroso, e nossa missão é conectá-los com famílias que possam oferecer isso.

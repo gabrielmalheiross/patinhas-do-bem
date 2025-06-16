@@ -14,8 +14,8 @@ function Adocao() {
             <div className="overlay" />
             <Layout>
                 <div className='content-main'>
-                    <div className="card" style={{ width: '400px' }}>
-                        <h3>Como a adoção funciona?</h3>
+                    <div className="card-custom" style={{ width: '400px' }}>
+                        <h3>Quer adotar um animalzinho?</h3>
                         <p style={{ textAlign: 'justify' }}>
                             O processo de adoção começa com um précadatro para analisarmos o
                             seu perfil e interesses para seu novo amiguinho.
