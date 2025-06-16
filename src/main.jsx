@@ -14,7 +14,7 @@ import Adocao from './adocao/index.jsx';
 import Doacao from './doacao/index.jsx';
 
 const router = createBrowserRouter([
-  { path: "/patinhas-do-bem/", element: <App /> },
+  { path: "/patinhas-do-bem", element: <App /> },
   { path: "/patinhas-do-bem/sobre", element: <Sobre /> },
   { path: "/patinhas-do-bem/contato", element: <Contato /> },
   { path: "/patinhas-do-bem/adocao", element: <Adocao /> },
