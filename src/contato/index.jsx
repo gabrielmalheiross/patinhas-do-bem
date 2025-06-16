@@ -18,7 +18,7 @@ function Contato() {
             <Layout>
                 <div className='content-main'>
                     <div className="card-custom" style={{ width: '400px' }}>
-                        <h3>Contato, Endereço e Doação</h3>
+                        <h3>Contato e Endereço</h3>
                         <p className='align-items-center'><i className='pi pi-phone' /> Telefone: 65 99605-6441</p>
                         <p className='align-items-center'>Endereço: Avenida da Fé, 990-N, Bairro Téssele, ao lado do Ecoponto, Lucas do Rio Verde 78455-000.</p>
                     </div>
