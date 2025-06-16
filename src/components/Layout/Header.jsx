@@ -10,7 +10,7 @@ export default function Header() {
             label: 'Início',
             icon: 'pi pi-home',
             command: () => {
-                navigate('')
+                navigate('/')
             }
         },
         {
@@ -44,7 +44,7 @@ export default function Header() {
     ];
 
     const onInicio = () => {
-        navigate('')
+        navigate('/')
     }
 
     const start = <img src="/logo-alpatas-header.png" className='cursor-pointer' onClick={onInicio} width={150} height={49} alt="Logo" />;
