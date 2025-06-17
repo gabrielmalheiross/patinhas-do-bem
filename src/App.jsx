@@ -33,7 +33,7 @@ function App() {
             <Button
               className='bg-white p-3'
               onClick={() => navigate('/doacao')}
-              label="Quero doar"
+              label="Quero ajudar"
               severity="info" text raised />
           </div>
         </div>

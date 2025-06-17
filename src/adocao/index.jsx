@@ -19,16 +19,16 @@ function Adocao() {
                     <Card className="max-w-25rem">
                         <h3>Quer adotar um animalzinho?</h3>
                         <p style={{ textAlign: 'justify' }}>
-                            O processo de adoção começa com um précadatro para analisarmos o
-                            seu perfil e interesses para seu novo amiguinho.
+                            O processo de adoção começa com um pré-cadastro para analisarmos o seu perfil e
+                            classificarmos seus interesses relativos ao seu novo amiguinho.
                         </p>
                         <p style={{ textAlign: 'justify' }}>
-                            Após o preenchimento do formulário, será enviado no número cadastrado no formulário
-                            fotos e descrições que se enquadram na seu perfil de acordo com as respostas.
+                            Após o preenchimento do formulário, será enviado no número de celular cadastrado
+                            fotos e descrições que se enquadram no seu perfil, de acordo com as respostas.
                         </p>
                         <p style={{ textAlign: 'justify' }}>
-                            A partir da resposta, agendaremos a data para sua visita na
-                            nossa ONG, para realizarmos todo o procedimento pessoalmente.
+                            A partir da resposta, agendaremos a data de sua visita à nossa ONG, para
+                            realizarmos todo o procedimento pessoalmente.
                         </p>
                         <Button
                             onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSedgikgUGgNszSN3caiK0tkeJlvZ7_mITwXqqtwSg3uP3litQ/viewform?usp=dialog', '_blank')}
