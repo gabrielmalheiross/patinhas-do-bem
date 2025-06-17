@@ -30,11 +30,13 @@ function Adocao() {
                             A partir da resposta, agendaremos a data de sua visita à nossa ONG, para
                             realizarmos todo o procedimento pessoalmente.
                         </p>
-                        <Button
-                            onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSedgikgUGgNszSN3caiK0tkeJlvZ7_mITwXqqtwSg3uP3litQ/viewform?usp=dialog', '_blank')}
-                            label="Começar processo de adoção"
-                            severity="info" text raised />
                     </Card>
+                    <Button
+                        style={{ backgroundColor: "#ffaf13", color: "white" }}
+                        className='mt-5'
+                        onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSedgikgUGgNszSN3caiK0tkeJlvZ7_mITwXqqtwSg3uP3litQ/viewform?usp=dialog', '_blank')}
+                        label="Começar processo de adoção"
+                        severity="info" text raised />
                 </div>
             </Layout>
         </>
