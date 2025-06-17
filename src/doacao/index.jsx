@@ -1,6 +1,6 @@
+import { Card } from 'primereact/card'
 import '../App.css'
 import Layout from '../components/Layout'
-import { Button } from 'primereact/button'
 
 function Doacao() {
 
@@ -8,13 +8,14 @@ function Doacao() {
         <>
             <img
                 src="/bannerfooter.png"
+                rel="preload"
                 alt="Imagem de fundo"
                 className="imagem-fundo"
             />
             <div className="overlay" />
             <Layout>
-                <div className='content-main'>
-                    <div className="card-custom" style={{ width: '400px' }}>
+                <div className='content-main p-3'>
+                    <Card className="max-w-25rem">
                         <h3>Como ajudar a Alpatas</h3>
                         <p style={{ textAlign: 'justify' }}>
                             Transforme vidas com um gesto de amor! Sua doação ajuda a alimentar,
@@ -25,15 +26,15 @@ function Doacao() {
                             <b>Pix Solidário:</b> 08.625.273/0001-33
                         </p>
                         <p style={{ textAlign: 'justify' }}>
-                            Banco: Sicredi
+                            <b>Banco:</b> Sicredi
                         </p>
                         <p style={{ textAlign: 'justify' }}>
-                            Agência: 0810
+                            <b>Agência:</b> 0810
                         </p>
                         <p style={{ textAlign: 'justify' }}>
-                            Conta: 33.703-1
+                            <b>Conta:</b> 33.703-1
                         </p>
-                    </div>
+                    </Card>
                 </div>
             </Layout>
         </>

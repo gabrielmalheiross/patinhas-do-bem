@@ -47,7 +47,7 @@ export default function Header() {
         navigate('/')
     }
 
-    const start = <img src="/logo-alpatas-header.png" className='cursor-pointer' onClick={onInicio} width={150} height={49} alt="Logo" />;
+    const start = <img src="/logo-alpatas-header.png" rel="preload" className='cursor-pointer' onClick={onInicio} width={150} height={49} alt="Logo" />;
 
     return (
         <header className="cabecalho shadow-4">

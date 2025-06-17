@@ -1,6 +1,7 @@
 import '../App.css'
 import Layout from '../components/Layout'
 import { Button } from 'primereact/button'
+import { Card } from 'primereact/card'
 
 function Adocao() {
 
@@ -8,13 +9,14 @@ function Adocao() {
         <>
             <img
                 src="/bannerfooter.png"
+                rel="preload"
                 alt="Imagem de fundo"
                 className="imagem-fundo"
             />
             <div className="overlay" />
             <Layout>
-                <div className='content-main'>
-                    <div className="card-custom" style={{ width: '400px' }}>
+                <div className='content-main p-3'>
+                    <Card className="max-w-25rem">
                         <h3>Quer adotar um animalzinho?</h3>
                         <p style={{ textAlign: 'justify' }}>
                             O processo de adoção começa com um précadatro para analisarmos o
@@ -32,7 +34,7 @@ function Adocao() {
                             onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSedgikgUGgNszSN3caiK0tkeJlvZ7_mITwXqqtwSg3uP3litQ/viewform?usp=dialog', '_blank')}
                             label="Começar processo de adoção"
                             severity="info" text raised />
-                    </div>
+                    </Card>
                 </div>
             </Layout>
         </>
