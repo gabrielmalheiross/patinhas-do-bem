@@ -18,7 +18,7 @@ function Contato() {
                 <div className='content-main p-3'>
                     <Card className="max-w-25rem">
                         <h3>Contato e Endereço</h3>
-                        <p className='align-items-center text-justify'><i className='pi pi-phone' /> Telefone: 65 99605-6441</p>
+                        <p className='align-items-center text-justify'><i className='pi pi-envelope' /> Email: <a href="mailto:alpatas@gmail.com">alpatas@gmail.com</a></p>
                         <p className='align-items-center text-justify'><i className='pi pi-building-columns' /> Endereço: Avenida da Fé, 990-N, Bairro Téssele, ao lado do Ecoponto, Lucas do Rio Verde 78455-000.</p>
                         <p className='align-items-center text-justify'><i className='pi pi-instagram' /> Instagram: <a href="https://www.instagram.com/alpataslrv/" target='_blank'>@alpataslrv</a>.</p>
                     </Card>
