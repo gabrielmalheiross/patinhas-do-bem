@@ -25,16 +25,16 @@ function App() {
 
           <div className='flex gap-5 pt-3'>
             <Button
-              className='bg-white p-3'
+              style={{ backgroundColor: "#ffaf13", color: "white" }}
               onClick={() => navigate('/adocao')}
               label="Quero adotar"
-              severity="info" text raised />
+              severity="warning" text raised />
 
             <Button
-              className='bg-white p-3'
+              style={{ backgroundColor: "#ffaf13", color: "white" }}
               onClick={() => navigate('/doacao')}
               label="Quero ajudar"
-              severity="info" text raised />
+              severity="warning" text raised />
           </div>
         </div>
       </Layout>

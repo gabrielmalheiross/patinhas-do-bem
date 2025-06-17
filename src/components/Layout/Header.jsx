@@ -52,7 +52,7 @@ export default function Header() {
     return (
         <header className="cabecalho shadow-4">
             <div className='container-portal'>
-                <Menubar model={items} start={start} />
+                <Menubar className='border-none' model={items} start={start} />
             </div>
         </header>
     )
